@@ -1,0 +1,29 @@
+{
+ "creation": "2019-09-22 13:12:30.770418",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "surgery"
+ ],
+ "fields": [
+  {
+   "fieldname": "surgery",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Surgery",
+   "options": "Surgery"
+  }
+ ],
+ "istable": 1,
+ "modified": "2019-10-18 11:19:57.722911",
+ "modified_by": "Administrator",
+ "module": "Surgery",
+ "name": "Surgery Table",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
