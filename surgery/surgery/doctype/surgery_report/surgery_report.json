@@ -101,18 +101,20 @@
   },
   {
    "fieldname": "body_part",
-   "fieldtype": "Select",
+   "fieldtype": "Link",
    "label": "Body Part",
-   "options": "\nKnee\nShoulder\nEllbow\nUpper Ankle Joint",
+   "options": "Surgery Body Part",
    "reqd": 1
   },
   {
    "fieldname": "diagnosis",
    "fieldtype": "Link",
    "label": "Diagnosis",
-   "options": "Diagnosis"
+   "options": "Diagnosis",
+   "set_only_once": 1
   },
   {
+   "fetch_from": "diagnosis.diagnosis_text",
    "fieldname": "text_editor_16",
    "fieldtype": "Text Editor"
   },
@@ -138,7 +140,7 @@
    "label": "Surgery Report"
   }
  ],
- "modified": "2019-10-18 11:18:33.310730",
+ "modified": "2019-10-18 14:46:02.905430",
  "modified_by": "Administrator",
  "module": "Surgery",
  "name": "Surgery Report",
